@@ -1,4 +1,6 @@
-SELECT id
-FROM users
+SELECT id,firstname
+FROM articles
+INNER JOIN users
+ON id
 WHERE id = '10'
 
